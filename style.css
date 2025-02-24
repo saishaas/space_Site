@@ -1,0 +1,183 @@
+body {
+    color: aliceblue;
+    background: url(src/space.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 1vw;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+.card {
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3vh;
+    background: rgba(77, 77, 77, 0.5);
+    padding-bottom: 3vh;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card figure {
+    width: 17vw;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: min(17vw, 22vh);
+    max-height: 22vh;
+}
+
+.card button:hover {
+    cursor: pointer;
+    color: bisque;
+}
+
+.card button {
+    width: 3vw;
+    color: aliceblue;
+    background: none;
+    border: none;
+}
+
+
+body {
+    color: aliceblue;
+    background: url(src/space.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+.planet-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.planet-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+.planet-content img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin: 0.5em 0;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons button {
+    background: rgba(77, 77, 77, 0.8);
+    border: none;
+    color: aliceblue;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.home-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(77, 77, 77, 0.8);
+    border: none;
+    color: aliceblue;
+    padding: 0.7em 1em;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.home-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
